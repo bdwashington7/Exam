@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+    margin: 0;
+    padding: 0;
+   font-family: 'Arimo', sans-serif;}
+
+* {
+    box-sizing: border-box;
+}
+
+.align-center {
+    width: 970px;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+}
+
+.float-left {
+    float: left;
+    display: block;
+}
+
+.float-right {
+    float: right;
+    display: block;
+}
+/*TiTle Start..........*/
+
+.title{
+    position: relative;
+    margin-top: 30px;
+    border-bottom: 1px solid #cccccc;;
+    display: block;
+    height: 71px;
+}
+.logo-text {
+    position: absolute;
+}
+.logo-text h2 {
+    position: absolute;
+    bottom:-6px;
+    left: 56px;
+    font-family: sans-serif;
+    color: #737373;
+}
+.social i.fa.fa {
+    border: 3px solid #cccccc;
+    border-radius: 50px;
+    color: #cccccc;
+    padding: 5px 7px;
+    margin-left: 6px;
+}
+.social i.fa.fa:hover {
+        border: 3px solid #00ccff;
+        color:#00ccff;
+        cursor: pointer;
+}
+/*Start Menu........................*/
+.nav {
+    margin: 22px 0px;
+}
+
+.nav > ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-left: -39px;
+}
+
+.nav ul li {
+    float: left;
+}
+.nav li:first-child a{
+    color: #2ecc71!important;;
+}
+
+.nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#737373;
+}
+
+.social {
+    width: 300px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    float: left;
+}
+
+.social ul li a {
+    text-decoration: none;
+}
+/*Slider Start from here*/
+
+.slider_area img {
+    position: relative;
+    width: 100%;
+}
+
+.slider {
+    margin-top: -573px;
+    right: 304px;
+}
+
+.slider > img {
+    margin-top:19px;
+}
+/*content start from here................*/
+.content  > h3 {
+    color: #aeadad;
+    text-align: center;
+    padding: 2px 110px;
+    font-family: sans-serif;
+}
+
+.button {
+    margin-left: 41%;
+}
+
+.button h2 {
+    margin:35px 0;
+    background:#2ecc71;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    width: 224px;
+    padding: 16px 27px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/*player Start from here.....*/
+.player {
+    background-color:#efefef;
+    width: 100%;
+    height:315px;
+    padding-top: 30px;
+}
+
+.player-bg {}
+
+.player-2 {
+    position: relative;
+    background-image: url(../img/player_background.png);
+    width:380px;
+    height: 240px;
+}
+
+.player-button {
+    position: absolute;
+    bottom: 89px;
+    right: 171px;
+}
+.player_text {
+    float: right;
+    position: absolute;
+    width: 39%;
+    margin-top: -22px;
+    right: 195px;
+}
+
+.player_text > h3 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #666666;
+}
+
+.player_text > p {
+    font-family: sans-serif;
+    color: #999999;
+}
+/*optin Start from here..........*/
+.option {
+    height: 160px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 14px;
+    background-color: #322f2f;
+}
+.option-2 {
+margin-top: 30px;
+}
+.option-text {
+    margin-top: 21px;
+    padding-bottom: 70px;
+}
+
+.button-option  {
+    padding: 18px 23px;
+    background-color: rgb(46, 204, 113);
+    display: inline-block;
+    text-align: center;
+    line-height: 14px;
+    width: 262px;
+    font-weight: 700;
+}
+
+/*footer Start From here......*/
+
+.copy_right {
+    color: #666;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.footer_nav ul li a {
+  
+}
+.footer_nav ul {
+  list-style: none;
+}
+.footer_nav ul li {
+    float: left;
+}
+.footer_nav ul li a {
+    padding-right: 8px;
+    color: #666;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer_text > h2 {}
